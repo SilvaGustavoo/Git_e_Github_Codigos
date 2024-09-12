@@ -152,6 +152,36 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ## Trabalhando com Branches
 
+- Criando uma nova Branch Local
+
+``git checkout -b [NOME DA BRANCH]``
+
+- Visualizando as Branchs que existem
+
+``git branch``
+
+- Alterando Branch atual
+
+``git checkout [BRANCH QUE DESEJA IR]``
+
+- Mostrar os commits em que estão cada Branch
+
+``git branch -v``
+
+- Unir as Branchs 
+
+``git merge [BRANCH QUE DESEJA UNIR]``
+
+- Deletar Branch
+
+``git branch -d [BRANCH QUE DESEJA DELETAR]``
+
+
+### Conflitos com Branchs
+
+1. Conflitos de Merge
+> 
+
 
 
 

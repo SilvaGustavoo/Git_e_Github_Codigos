@@ -1,4 +1,4 @@
-# DIO | Desenvolvendo e Registrando os Aprendizados com o Git
+# DIO | Desenvolvendo e Registrando os Aprendizados com o Git  ✒️📒
 
 ## Resumo
 
@@ -6,7 +6,7 @@ O repositório tem como objetivo anotar e descrever todos os códigos essenciais
 
 Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habilidades com o Apliticativo de Versionamento de Código GIT, para ter uma bagagem completa das habilidades necessárias a se inserir no mercado de desenvolvimento de software e análise de dados.
 
-## Listando Códigos para Configuração Completa do Git 
+## Listando Códigos para Configuração Completa do Git ⚙️⚒️
 
 - Listar todas as configurações GIT
 
@@ -23,7 +23,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git config --global init.defaultBranch [BRANCH]``
 
-### Criando sua Autenticação pelo Token
+### Criando sua Autenticação pelo Token 🔒
 
 ***Obs:*** o Token deve ser criado no seu Github através do [Github Tokens](https://github.com/settings/tokens) depois de criar seu token deve ser realizado um ``git clone`` **de um repositório privado** para assim utilizar a opção token
 
@@ -35,7 +35,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git config --global --show-origin credential.helper``
 
-### Criando sua chave SSH no Git
+### Criando sua chave SSH no Git 🔑
 
 - Comando para listar se existem chaves SSH cadastradas
 
@@ -59,12 +59,12 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``cat id_ed25519.pub`` > agora é só copiar a sua chave SSH e colocar no GitHub [clicando aqui](https://github.com/settings/keys)
 
-## Explicando alguns documentos GIT
+## Explicando alguns documentos GIT 📃
 > .gitignore : o git ignore tem a capacidade de ignorar arquivos que você julgue desnecessário mostrar para aqueles que irão visualizar ou clonar o seu repositório
 
 > .gitkeep : o Git keep é geralmente utilizado para quando existirem pastas vazias no seu repositório e deseja inseri-las no commit
 
-## Códigos Essenciais para os Commits
+## Códigos Essenciais para os Commits 📥
 
 - Inicializando um repositório Git na pasta atual
 
@@ -95,7 +95,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 ``git commit --amend -m "[NOVA MENSAGEM]"``
 
 
-### Manipulando Commits anteriores
+### Manipulando Commits anteriores 📝🌀
 
 **Obs:** o Hash dos commits pode ser coletado utilizando o ``git log`` 
 
@@ -116,7 +116,7 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 ``git reflog``
 
 
-## Enviando e Baixando Alterações com o Repositório Remoto
+## Enviando e Baixando Alterações com o Repositório Remoto 📨📬
 
 
 

@@ -1,12 +1,36 @@
 # DIO | Desenvolvendo e Registrando os Aprendizados com o Git  ✒️📒
 
+***Mentora:*** [Elidiana Andrade](https://www.linkedin.com/in/elidianaandrade/)
+
+***Curso:*** [DIO Bootcamp Claro - Java Spring Boot](https://web.dio.me/track/2e52ad2d-0a3b-4ade-a4ae-17830f528834)
+<br>
+## Sumário
+
+1. [Resumo](#resumo)
+2. [⚙️ Listando Códigos para Configuração Completa do Git ⚒️](#configuracao)
+   - [Criando sua Autenticação pelo Token 🔒](#token)
+   - [Criando sua chave SSH no Git 🔑](#ssh)
+3. [Explicando alguns documentos GIT 📃](#documentos)
+4. [Códigos Essenciais para os Commits 📥](#commits)
+   - [Manipulando Commits anteriores 📝🌀](#manipulando)
+5. [Enviando e Baixando Alterações com o Repositório Remoto 📨📬](#remoto)
+6. [📚 Trabalhando com Branches 📑](#branches)
+   - [Conflitos com Branchs ⚠️](#branches-conflito)
+
+<br>
+
+<div id='resumo'/>
+ 
 ## Resumo
 
 O repositório tem como objetivo anotar e descrever todos os códigos essenciais do Git, seja para uso futuro ou para ajudar os desenvolvedores que necessitam de uma solução rápida aos seus problemas ou relembrar códigos esquecidos.
 
 Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habilidades com o Apliticativo de Versionamento de Código GIT, para ter uma bagagem completa das habilidades necessárias a se inserir no mercado de desenvolvimento de software e análise de dados.
 
+<br>
 
+<div id='configuracao'/>
+ 
 ##  ⚙️ Listando Códigos para Configuração Completa do Git ⚒️
 
 - Listar todas as configurações GIT
@@ -24,7 +48,8 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git config --global init.defaultBranch [BRANCH]``
 
-
+<div id='token'/>
+ 
 ### Criando sua Autenticação pelo Token 🔒
 
 ***Obs:*** o Token deve ser criado no seu Github através do [Github Tokens](https://github.com/settings/tokens) depois de criar seu token deve ser realizado um ``git clone`` **de um repositório privado** para assim utilizar a opção token
@@ -37,7 +62,8 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git config --global --show-origin credential.helper``
 
-
+<div id='ssh'/>
+ 
 ### Criando sua chave SSH no Git 🔑
 
 - Comando para listar se existem chaves SSH cadastradas
@@ -64,6 +90,8 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 <br>
 
+<div id='documentos'/>
+ 
 ## Explicando alguns documentos GIT 📃
 > .gitignore : o git ignore tem a capacidade de ignorar arquivos que você julgue desnecessário mostrar para aqueles que irão visualizar ou clonar o seu repositório
 
@@ -71,6 +99,8 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 <br>
 
+<div id='commits'/>
+ 
 ## Códigos Essenciais para os Commits 📥
 
 - Inicializando um repositório Git na pasta atual
@@ -119,7 +149,8 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 
 
-
+<div id='manipulando'/>
+ 
 ### Manipulando Commits anteriores 📝🌀
 
 **Obs:** o Hash dos commits pode ser coletado utilizando o ``git log`` 
@@ -142,6 +173,8 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 
 <br>
+
+<div id='remoto'/>
 
 ## Enviando e Baixando Alterações com o Repositório Remoto 📨📬
 
@@ -168,7 +201,9 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 <br>
 
-## Trabalhando com Branches
+<div id='branches'/>
+
+## 📚 Trabalhando com Branches 📑
 
 - Criando uma nova Branch Local
 
@@ -209,8 +244,9 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ``git branch -d [BRANCH QUE DESEJA DELETAR]``
 
-
-### Conflitos com Branchs
+<div id='branches-conflito'/>
+ 
+### Conflitos com Branchs ⚠️
 
 
 * **Conflitos de Branches através do Merge**

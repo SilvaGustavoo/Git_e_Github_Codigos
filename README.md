@@ -179,8 +179,8 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ### Conflitos com Branchs
 
-1. Conflitos de Merge
-> 
+1. Conflitos que podem ocorrer de Merge
+> Acontecimentos recorrentes ao utilizar o Merge
 
 
 

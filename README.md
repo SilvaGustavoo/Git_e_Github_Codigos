@@ -101,6 +101,23 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git commit --amend -m "[NOVA MENSAGEM]"``
 
+- Salvar temporariamente uma alteração sem fazer commit
+
+``git stash``
+
+- Visualizando as alterações salvas no Stash
+
+``git stash show``
+
+- Listanso todas as alterações salvas no Stash
+
+``git stash list``
+
+- Aplicando as alterações temporariamente salvas
+
+``git stash apply``
+
+
 
 
 ### Manipulando Commits anteriores 📝🌀
@@ -122,6 +139,7 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 - Vendo o histórico de alteração nos commits
 
 ``git reflog``
+
 
 <br>
 
@@ -172,6 +190,21 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ``git merge [BRANCH QUE DESEJA UNIR]``
 
+- Baixar apenas as alterações sem mescla-las
+
+``git fetch origin main``
+
+**OBS:** Ao realizar o comando acima os  _novos documentos **não aparecerão** na sua pasta_ , para visualizar os documentos e informações use as seguintes opções
+
+- Comandos para vizualizar alterações do fetch
+    - Mostrar os arquivos apenas no prompt
+
+    ``git diff main origin/main``
+
+    - Mostrar os arquivos na pasta ou mescla-los
+
+    ``git merge origin/main``
+
 - Deletar Branch
 
 ``git branch -d [BRANCH QUE DESEJA DELETAR]``
@@ -180,14 +213,13 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 ### Conflitos com Branchs
 
 
-1. **Conflitos de Branchs através do Merge**
+* **Conflitos de Branches através do Merge**
 
 Esses conflitos acontecem por conta de existirem alterações salvas no servidor que não existem no repositótio local, causando a seguinte mensagem:
 
 ```
 CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
-
 ```
 
 

@@ -148,6 +148,9 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ``git pull``
 
+<br>
+
+## Trabalhando com Branches
 
 
 

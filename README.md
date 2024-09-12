@@ -6,6 +6,8 @@ O repositório tem como objetivo anotar e descrever todos os códigos essenciais
 
 Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habilidades com o Apliticativo de Versionamento de Código GIT, para ter uma bagagem completa das habilidades necessárias a se inserir no mercado de desenvolvimento de software e análise de dados.
 
+<br>
+
 ## Listando Códigos para Configuração Completa do Git ⚙️⚒️
 
 - Listar todas as configurações GIT
@@ -23,6 +25,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``git config --global init.defaultBranch [BRANCH]``
 
+
 ### Criando sua Autenticação pelo Token 🔒
 
 ***Obs:*** o Token deve ser criado no seu Github através do [Github Tokens](https://github.com/settings/tokens) depois de criar seu token deve ser realizado um ``git clone`` **de um repositório privado** para assim utilizar a opção token
@@ -34,6 +37,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 - Ver a localização do ".gitconfig" através do credential.helper
 
 ``git config --global --show-origin credential.helper``
+
 
 ### Criando sua chave SSH no Git 🔑
 
@@ -59,10 +63,14 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 
 ``cat id_ed25519.pub`` > agora é só copiar a sua chave SSH e colocar no GitHub [clicando aqui](https://github.com/settings/keys)
 
+<br>
+
 ## Explicando alguns documentos GIT 📃
 > .gitignore : o git ignore tem a capacidade de ignorar arquivos que você julgue desnecessário mostrar para aqueles que irão visualizar ou clonar o seu repositório
 
 > .gitkeep : o Git keep é geralmente utilizado para quando existirem pastas vazias no seu repositório e deseja inseri-las no commit
+
+<br>
 
 ## Códigos Essenciais para os Commits 📥
 
@@ -95,6 +103,7 @@ Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habil
 ``git commit --amend -m "[NOVA MENSAGEM]"``
 
 
+
 ### Manipulando Commits anteriores 📝🌀
 
 **Obs:** o Hash dos commits pode ser coletado utilizando o ``git log`` 
@@ -115,9 +124,30 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ``git reflog``
 
+<br>
 
 ## Enviando e Baixando Alterações com o Repositório Remoto 📨📬
 
+
+- Adicionando local do repositório
+
+``git remote add origin [URL DO REPOSITORIO]``
+
+- Visualizar repositório remoto cadastrado
+
+``git remote -v``
+
+- Configurando a Branch para Main
+
+``git brnach -M main``
+
+- Empurrando arquivos para o repositório
+
+``git push -u origin main``
+
+- Puxando alterações de terceiros do repositório
+
+``git pull``
 
 
 

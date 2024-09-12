@@ -6,9 +6,8 @@ O repositório tem como objetivo anotar e descrever todos os códigos essenciais
 
 Através do curso DIO Claro Bootcamp, estou desenvolvendo melhor as minhas habilidades com o Apliticativo de Versionamento de Código GIT, para ter uma bagagem completa das habilidades necessárias a se inserir no mercado de desenvolvimento de software e análise de dados.
 
-<br>
 
-## Listando Códigos para Configuração Completa do Git ⚙️⚒️
+##  ⚙️ Listando Códigos para Configuração Completa do Git ⚒️
 
 - Listar todas as configurações GIT
 

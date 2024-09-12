@@ -179,9 +179,16 @@ o Mixed também retorna até o commit desejado mantendo os arquivos atuais, por�
 
 ### Conflitos com Branchs
 
-1. Conflitos de Branchs através do Merge
-> Esses conflitos acontecem por conta de
 
+1. **Conflitos de Branchs através do Merge**
+
+Esses conflitos acontecem por conta de existirem alterações salvas no servidor que não existem no repositótio local, causando a seguinte mensagem:
+
+```
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+```
 
 
 

@@ -258,6 +258,16 @@ CONFLICT (content): Merge conflict in README.md
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
+<div id='contribuicao'/>
+ 
+### Contribuição em um Projeto Open Source 🤝🖥️
+
+Foi realizado uma contribuição de acordo com as diretrizes fornecidas no Portifólio [dio-lab-open-source](https://github.com/digitalinnovationone/dio-lab-open-source) fique a vontade para realizar a sua contribuição tambem!! Siga os passos informados no CONTRIBUTING.md ou através das [aulas DIO](https://web.dio.me/project/desafio-de-projeto-contribuindo-em-um-projeto-open-source-no-github/learning/913f26fd-1018-4643-b59a-6356ea77dc2e?back=/track/coding-the-future-claro-java-spring-boot&tab=undefined&moduleId=undefined)
+
+<div style="display: flex; align-items: center; justify-content: center;"> 
+   <img alt="Diploma do projeto" src="https://github.com/user-attachments/assets/04c373c4-b2fa-4751-b2ab-2e0bb4539502" width="45%">
+   <img alt="Diploma do projeto" src="https://github.com/user-attachments/assets/314a2d8f-a15f-4928-ba8b-f2a13f505652" width="45%">
+</div>
 
 
 
